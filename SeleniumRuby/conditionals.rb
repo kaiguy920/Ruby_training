@@ -54,3 +54,16 @@ when 500...649
   puts "You are pre-approved for interest rate of 6%"
   else puts "You are Not approved for any rate"
 end
+
+#=============================================================
+#                          STRING INTERPOLATION
+#=============================================================
+
+no_of_apples = 5
+person = "John"
+price = 6.99
+#John has 5 apples. It costs him $6.99
+
+puts person + " has " + no_of_apples.to_s + " apples. It cost him $" + price.to_s
+puts "==========================================="
+puts "#{person} has #{no_of_apples} apples. It cost him $#{price}"
