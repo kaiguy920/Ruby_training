@@ -17,12 +17,14 @@ end
 #
 # Hint: Holiday = Saturday and Sunday
 
-day = "Sunday"
+day = "TUESday"
 
 case(day.downcase)
 when day == "saturday" || "sunday"
   puts "Holiday"
+when 'monday', 'tuesday', 'wednesday', 'thursday', 'friday'
+  puts 'Work Day'
 else
-  puts "Weekday"
+  puts "Invalid day"
 end
 
